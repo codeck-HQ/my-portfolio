@@ -160,15 +160,15 @@ const cards = [
 
           {/* Socials */}
           <div className="flex gap-6 mt-10 text-2xl text-gray-400">
-            <a href="#">
+            <a href="https://github.com/codeck-HQ" target="_blank">
               <FaGithub className="hover:text-white transition" />
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/chinemerem-ihemegbulam-381458376/" target="_blank">
               <FaLinkedin className="hover:text-white transition" />
             </a>
 
-            <a href="#">
+            <a href="https://x.com/codeck_Hq" target="_blank">
               <FaXTwitter className="hover:text-white transition" />
             </a>
           </div>
