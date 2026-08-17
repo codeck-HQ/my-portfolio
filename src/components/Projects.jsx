@@ -22,7 +22,7 @@ function Projects() {
 
     {
       title: "E-Commerce Website",
-      image: "/projects/ecommerce.png",
+      image: "/projects/ecomm.png",
       description:
         "An online shopping platform featuring product displays, responsive layouts and an intuitive browsing experience.",
       tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
