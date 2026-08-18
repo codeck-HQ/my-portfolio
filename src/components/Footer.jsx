@@ -18,7 +18,7 @@ function Footer() {
           {/* Logo / Name */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-black">
-              Vybz<span className="text-cyan-400">/</span>Codeck
+              Codeck<span className="text-cyan-400">-</span>HQ
             </h3>
 
             <p className="text-gray-400 mt-2">
@@ -104,7 +104,7 @@ function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://x.com/codeck_Hq"
               className="
                 p-3
                 rounded-full
@@ -144,7 +144,7 @@ function Footer() {
         {/* Bottom */}
         <div className="mt-10 pt-6 border-t border-white/10 text-center">
           <p className="text-gray-500 text-sm">
-            © 2026 Vybz. Built with React & Tailwind CSS.
+            © 2026 Codeck. Built with React & Tailwind CSS.
           </p>
         </div>
 

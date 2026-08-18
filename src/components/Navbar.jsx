@@ -14,7 +14,7 @@ function Navbar() {
         
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wider text-white">
-         Vybz<span className="text-cyan-400">/</span>Codeck
+         Codeck<span className="text-cyan-400">-</span>HQ
         </h1>
 
         {/* Desktop Menu */}
