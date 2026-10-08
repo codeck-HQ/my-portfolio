@@ -1,13 +1,13 @@
 function Projects() {
   const projects = [
     {
-      title: "Medical Organization Website",
-      image: "/projects/medical.png",
+      title: "Codeck Store",
+      image: "/projects/ecomm.png",
       description:
-        "A responsive medical organization website featuring healthcare information, doctor profiles, service pages and contact functionality.",
-      tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
-      github: "#",
-      demo: "#",
+        "A modern e-commerce web application with product search, category filtering, sorting, cart management, wishlist, product details, related products and a complete checkout experience.",
+      tech: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/codeck-HQ/ecommerce-app",
+      demo: "https://codeck-store.vercel.app",
     },
 
     {
@@ -16,33 +16,27 @@ function Projects() {
       description:
         "A modern food delivery platform with engaging layouts, menu sections and a responsive user experience.",
       tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/codeck-HQ/biteza",
+      demo: "",
     },
 
     {
-      title: "E-Commerce Website",
-      image: "/projects/ecomm.png",
+      title: "Medical Organization Website",
+      image: "/projects/medical.png",
       description:
-        "An online shopping platform featuring product displays, responsive layouts and an intuitive browsing experience.",
+        "A responsive medical organization website featuring healthcare information, doctor profiles, service pages and contact functionality.",
       tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
-      github: "#",
-      demo: "#",
+      github: "",
+      demo: "",
     },
   ];
 
   return (
-    <section
-      id="projects"
-      className="min-h-screen px-6 lg:px-10 py-24"
-    >
+    <section id="projects" className="min-h-screen px-6 lg:px-10 py-24">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
-        <div
-          data-aos="fade-up"
-          className="text-center mb-20"
-        >
+        <div data-aos="fade-up" className="text-center mb-20">
           <p className="uppercase tracking-[0.3em] text-cyan-400 mb-4">
             Portfolio
           </p>
@@ -68,13 +62,13 @@ function Projects() {
             >
               {/* Image */}
               <div data-aos="fade-right">
-                <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="block overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
                   <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-64 md:h-80 object-cover hover:scale-105 transition duration-500"
                   />
-                </div>
+                </a>
               </div>
 
               {/* Content */}
@@ -110,28 +104,18 @@ function Projects() {
                 <div className="flex flex-wrap gap-4">
                   <a
                     href={project.github}
-                    className="
-                      px-6 py-3
-                      rounded-full
-                      border border-white/20
-                      hover:bg-white/10
-                      transition
-                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/10 transition"
                   >
                     GitHub
                   </a>
 
                   <a
                     href={project.demo}
-                    className="
-                      px-6 py-3
-                      rounded-full
-                      bg-cyan-400
-                      text-black
-                      font-semibold
-                      hover:scale-105
-                      transition
-                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 rounded-full bg-cyan-400 text-black font-semibold hover:scale-105 transition"
                   >
                     Live Demo
                   </a>
