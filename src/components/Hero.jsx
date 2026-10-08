@@ -149,13 +149,15 @@ const cards = [
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <button className="px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300">
-              View Projects
-            </button>
+<div className="mt-10 flex flex-wrap gap-4">
+  <a href="#projects" className="px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300">
+    View Projects
+  </a>
 
-            <button className="px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition duration-300">
-              Contact Me
-            </button>
+  <a href="#contact" className="px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition duration-300">
+    Contact Me
+  </a>
+</div>
           </div>
 
           {/* Socials */}
